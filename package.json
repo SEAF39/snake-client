@@ -1,23 +1,24 @@
 {
   "name": "snake-game",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A classic snake game built with JavaScript",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lighthouse-labs/snek-multiplayer.git"
   },
+  "author": "https://github.com/SEAF39/snake-client",
   "main": "index.js",
   "scripts": {
     "play": "node play.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "blessed": "^0.1.81",
+    "express": "^4.18.2",
+    "ip": "^1.1.8"
   },
   "bugs": {
     "url": "https://github.com/lighthouse-labs/snek-multiplayer/issues"
   },
   "homepage": "https://github.com/lighthouse-labs/snek-multiplayer#readme",
-  "devDependencies": {},
-  "author": "",
   "license": "ISC"
 }
