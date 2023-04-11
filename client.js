@@ -18,7 +18,7 @@ const connect = function () {
   });
 
   conn.on("data", (data) => {
-    console.log("The game is done");
+    console.log(" Game over");
   });
 
   return conn;
