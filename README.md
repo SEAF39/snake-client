@@ -10,10 +10,10 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-
-
 ### SERVER SIDE
-- Follow steps inside the snake-server-multiplayer repo to run the server side.
 
-### CLIENT SIDE
-- Run the development snake client using the `node play.js` command after you start server side.
+- Run the game from server side (run the `npm run play`).
+
+### CLIENT SIDE 
+
+- Run the snake client using the ( run the `node play.js`).
